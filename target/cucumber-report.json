@@ -1,0 +1,112 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 29,
+        "name": "Test Scenario",
+        "description": "",
+        "id": "login-feature;test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5100661233,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The Custom Page Is Active",
+            "match": {
+              "location": "FacebookSteps.java:28"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3515514906,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user fill the credentials",
+            "match": {
+              "location": "FacebookSteps.java:34"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256378488,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The user clicks on the create campaign button",
+            "match": {
+              "location": "FacebookSteps.java:46"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2294382032,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The campaign modal is shown",
+            "match": {
+              "location": "FacebookSteps.java:50"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149860739,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user select the first product",
+            "match": {
+              "location": "FacebookSteps.java:55"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154386760,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user clicks on the Modal continue button",
+            "match": {
+              "location": "FacebookSteps.java:59"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Automation"
+          },
+          {
+            "name": "@CustomTest2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  Some Description",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/LoginPage/UserSignOn.feature",
+    "tags": [
+      {
+        "name": "@Automation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
